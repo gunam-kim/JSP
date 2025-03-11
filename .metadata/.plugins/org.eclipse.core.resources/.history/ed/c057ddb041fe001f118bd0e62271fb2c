@@ -1,0 +1,9 @@
+package com.kh.mcdonald.model.dto;
+
+/**
+	1) DBMS에 존재하는 TB_USER 테이블의 컬럼의 값을 옮겨담아 View까지 이동할 목적의 객체
+	2)
+*/
+public class UserDTO {
+	
+}

@@ -1,0 +1,5 @@
+package com.kh.mcdonald.model.dto;
+
+public class Hamburger {
+
+}

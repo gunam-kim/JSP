@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--
+		case 1 : 요청URL			http://127.0.0.1/bk/static/요청URL?
+			상대 경로 방식
+			현재 URL의 가장 마지막 '/' 뒤에 값이 붙음
+		case 2 :
+		case 3 : /bk/case3		http://127.0.0.1/bk/case3?
+			절대 경로 방식
+	-->
+	
+	<form action="/bk/order" method="GET">
+		<span>주문하실 개수를 입력하세요</span><br>
+		<input type="text" name="num" placeholder="숫자만 넣어주세요" id="tn"></br>
+		<input type="text" name="product-name" placeholder="상품명을 입력해주세요"/>
+		<button type="submit">요청하기</button>
+	</form>
+	
+	<script>
+		console.dir(document.getElementById('#tn'));
+	</script>
+	
+	<form action="" method="POST">
+		아이디 : <br/>
+		<input type="text" placeholder="아이디를 입력해주세요"><br/>
+		비밀번호 : <br/>
+		<input type="password" placeholder="비밀번호를 입력해주세요"><br/><br/>
+		
+		<button type="submit">회원가입</button>
+	</form>
+</body>
+</html>

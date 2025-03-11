@@ -1,0 +1,23 @@
+package com.kh.mcdonald.model.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+import com.kh.mcdonald.model.dto.UserDTO;
+
+public class UserDAO {
+	static {
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public List<UserDTO> findAll(){
+		try(Connection conn = null){
+			
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}

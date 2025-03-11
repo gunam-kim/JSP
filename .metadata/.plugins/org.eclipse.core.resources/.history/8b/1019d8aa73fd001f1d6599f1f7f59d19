@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+// Java 코드 쓸 수 있음
+	request.getAttribute("message");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>응답 페이지</title>
+</head>
+<body>
+	<!--
+		"사용자가 입력한 userName"님!
+		회원가입에 성공하였습니다
+		가입한 아이디 : userId
+	-->
+	<h1>짱구님!</h1>
+	<p>
+		회원가입에 성공하였습니다
+		가입한 아이디 : user01
+	</p>
+</body>
+</html>

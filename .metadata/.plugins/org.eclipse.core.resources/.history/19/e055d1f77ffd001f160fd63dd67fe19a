@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSP 문법 배우기</title>
+</head>
+<body>
+	<h1>EL(Expression Language) 표현 언어</h1>
+	<p>
+		기존 JSP 상에 사용했던 $lt;<%= %> 같은 경우 사용이 복잡하고,<br>
+		컴파일 시 문제가 발생할 수 있기 때문에
+	</p>
+</body>
+</html>
