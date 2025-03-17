@@ -72,7 +72,12 @@
 </head>
 
 <body id="page-top">
-
+	<c:if test="${ not empty sessionScope.message }">
+		<script>
+			alert('${ sessionScope.message }');
+		</script>
+		<c:remove var="message" scope="session"/>
+	</c:if>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
@@ -93,7 +98,7 @@
             <a class="nav-link js-scroll-trigger" href="#">공지사항</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#">게시판</a>
+            <a class="nav-link js-scroll-trigger" href="boards?page=1">게시판</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#">사진게시판</a>
@@ -141,7 +146,7 @@
 			<!-- Modal body -->
 			<div class="modal-body">
 
-				<form action="/mfw/sign-in" name="sign-in" method="post" id="signInForm"
+				<form action="sign-in" name="sign-in" method="post" id="signInForm"
 					style="margin-bottom: 0;">
 					<table style="cellpadding: 0; cellspacing: 0; margin: 0 auto; width: 100%">
 						<tr>

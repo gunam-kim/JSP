@@ -1,7 +1,0 @@
-package com.kh.burgerking.model.dto;
-
-public class UserDTO {
-	private String userId;
-	private String userPw;
-	private String userName;
-}
