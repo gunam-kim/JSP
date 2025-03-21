@@ -26,8 +26,8 @@
     <fullyQualifiedTypeName name="org.apache.ibatis.session.RowBounds"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="com.kh.mfw.board.model.service.BoardService"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="com.kh.mfw.board.model.service.BoardService"/>
     <fullyQualifiedTypeName name="com.kh.mfw.board.model.dto.BoardDTO"/>
 </qualifiedTypeNameHistroy>
